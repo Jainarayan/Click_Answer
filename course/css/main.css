@@ -106,7 +106,6 @@ body{
 }
 
 .options{
-/* 	padding-right: 10vmin; */
 	cursor: pointer;
 	margin-left: 11.5vmin;
 	float: left;
@@ -239,7 +238,7 @@ body{
 } 
 #third_row{
 	margin-left: 12vmin;	
-} */ 
+} 
 #result{
     position: absolute;
     z-index: 70;
@@ -341,7 +340,7 @@ body{
     bottom: 7vmin;
     z-index: 100;
     width: 58%;
-    top: 6.9vmin
+	top: 6.9vmin
 }
 #show, #refresh{
 	position: absolute;
@@ -376,17 +375,11 @@ body{
     top: 2.4vmin;
     left: 2.6vmin;
 }
-@-moz-document url-prefix() { 
-	.options {
-		padding-right: 14vmin;
+@media(max-width: 300px){
+	.option-click {
+		border: 0.6vmin solid #cc0000;
+	}
+	#one, #eight, #twentyfour{
+		border: 0.6vmin solid #46a219;	
 	}
 }
-
-
-_::-webkit-full-page-media, _:future, :root .options {
-
- padding-right: 12vmin;
-
-}
-
-_:-ms-fullscreen, :root .options { padding-right: 13vmin; }
