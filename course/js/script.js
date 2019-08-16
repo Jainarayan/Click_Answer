@@ -112,5 +112,5 @@
 	
 	$('#show').click(function(){
 		$('.option-click').show();
-		$('.incorrect').css('opacity','0.4');	
+		$('.incorrect .option-click').css('opacity','0.4');	
 	});

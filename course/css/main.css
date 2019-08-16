@@ -79,7 +79,7 @@ body{
 	background-size: cover;
 }
 #content-box{
-    margin-top: 8vmin;
+    margin-top: 10vmin;
     width: 100%;
     top: calc(var(--height)*(.35));
     z-index: 70;
@@ -96,11 +96,11 @@ body{
 }
 .answers{
 	margin-top: 3vmin;
-    margin-left: 3vmin;
+    margin-left: -1vmin;
 	font-size: 7vmin;
 	position: relative;
 	width: 100%;
-	padding-bottom: 7vmin;
+	padding-bottom: 13vmin;
 	font-family: KrutiDev;
 	font-weight: bold;
 }
@@ -108,7 +108,9 @@ body{
 .options{
 /* 	padding-right: 10vmin; */
 	cursor: pointer;
-	margin-left: 9vmin;
+	margin-left: 11.5vmin;
+	float: left;
+	height: 6.05vmin;
 }
 .option-click{
     position: absolute;
@@ -116,104 +118,104 @@ body{
     height: 13vmin;
     border-radius: 50%;
 	border: 0.3vmin solid #cc0000;
-	box-shadow: 1px 1px 4px;
+	box-shadow: 3px 5px 6px 0px rgba(144,145,145,1);
 }
 #one{
-	left: 5vmin;
+	left: 6.7vmin;
     top: -3.2vmin;
 	border: 0.3vmin solid #46a219;
 }
 #two{
-	left: 20vmin;
+	left: 22vmin;
     top: -3.2vmin; 
 }
 #three{
-	left: 35vmin;
+	left: 37.5vmin;
     top: -3.2vmin; 
 }
 #four{
-	left: 50vmin;
+	left: 52.5vmin;
     top: -3.2vmin; 
 }
 #five{
-	left: 65vmin;
+	left: 67.5vmin;
     top: -3.2vmin; 
 }
 #six{
-	left: 80vmin;
+	left: 82.5vmin;
     top: -3.2vmin; 
 }
 #seven{
-	left: 95vmin;
+	left: 97.5vmin;
     top: -3.2vmin; 
 }
 #eight{
-	left: 110vmin;
+	left: 112.5vmin;
     top: -3.2vmin; 
 	border: 0.3vmin solid #46a219;
 }
 #nine{
-	left: 5vmin;
+	left: 6.7vmin;
     top: -3.2vmin; 
 }
 #ten{
-	left: 20vmin;
+	left: 22vmin;
     top: -3.2vmin; 
 }
 #eleven{
-	left: 35vmin;
+	left: 37.5vmin;
     top: -3.2vmin; 
 }
 #tweleve{
-	left: 50vmin;
+	left: 52.5vmin;
     top: -3.2vmin; 
 }
 #thirteen{
-	left: 65vmin;
+	left: 67.5vmin;
     top: -3.2vmin; 
 }
 #fourteen{
-	left: 80vmin;
+	left: 82.5vmin;
     top: -3.2vmin; 
 }
 #fifteen{
-	left: 95vmin;
+	left: 97.5vmin;
     top: -3.2vmin; 
 }
 #sixteen{
-	left: 110vmin;
+	left: 112.5vmin;
     top: -3.2vmin; 
 }
 #seventeen{
-	left: 5vmin;
+	left: 6.7vmin;
     top: -3.2vmin; 
 }
 #eighteen{
-	left: 20vmin;
+	left: 22vmin;
     top: -3.2vmin; 
 }
 #nineteen{
-	left: 35vmin;
+	left: 37.5vmin;
     top: -3.2vmin; 
 }
 #twenty{
-	left: 50vmin;
+	left: 52.5vmin;
     top: -3.2vmin; 
 }
 #twentyone{
-	left: 65vmin;
+	left: 67.5vmin;
     top: -3.2vmin; 
 }
 #twentytwo{
-	left: 80vmin;
+	left: 82.5vmin;
     top: -3.2vmin; 
 }
 #twentythree{
-	left: 95vmin;
+	left: 97.5vmin;
     top: -3.2vmin; 
 }
 #twentyfour{
-	left: 110vmin;
+	left: 112.5vmin;
     top: -3.2vmin; 
 	border: 0.3vmin solid #46a219;
 }
@@ -229,20 +231,15 @@ body{
     margin-top: 4vmin;
     margin-left: 3.6vmin;
 }
-
-  #opt{
-	margin-left: 7.5vmin;
-} 
-/* #sec{
-	margin-left: 9vmin;
-} */
- #second_row{
-	margin-left: 7.5vmin;
+ #sec{
+	margin-left: 12.5vmin;
 }
+   #opt{
+	margin-left: 10.5vmin;
+} 
 #third_row{
-	margin-left: 7.5vmin;	
-}  
-
+	margin-left: 12vmin;	
+} */ 
 #result{
     position: absolute;
     z-index: 70;
@@ -349,7 +346,7 @@ body{
 #show, #refresh{
 	position: absolute;
     width: 20%;
-    top: -0.3vmin;
+    top: 1.6vmin;
     left: 15vmin;
 	opacity: 0.5;
 }
